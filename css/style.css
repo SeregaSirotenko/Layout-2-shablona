@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+}
+
+/*Заголовок-1---*/
+
+.myheader-1 {
+	background-color: #2c3942;
+}
+
+.myheader-1 .container{
+	height: 40px;
+	width: 1200px;
+	margin: 0 auto; 
+}
+
+.myheader-1 .container .block-2 {
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.myheader-1 .container .block {
+	width: 514px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.myheader-1 .container .block-2 .topMenu {
+	height: 20px;
+	padding-top: 8px;
+}
+
+.myheader-1 .container .block-2 .topMenu .col {
+	display: inline-block;
+	vertical-align: top;
+	height: 20px;
+}
+
+.myheader-1 .container .block-2 .topMenu .menu {
+	width: 170px;
+}
+
+.myheader-1 .container .block-2 .topMenu .col-1 {
+	width: 144px;
+	padding-left: 5px;
+}
+
+.myheader-1 .container .block-2 .topMenu .col-2 {
+	width: 108px;
+	border-left: 1px solid #e5edf4;
+	padding-left: 15px;
+}
+
+.myheader-1 .container .block-2 .topMenu .col-3 {
+	width: 40px;
+	padding-left: 17px;
+	border-left: 1px solid #e5edf4;
+}
+
+.myheader-1 .container .block-1 {
+	height: 40px;
+	width: 680px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.myheader-1 .container .block-2 .topMenu span {
+	font-family: Calibri;
+	font-size: 14pt;
+	color: #e5edf4;
+}
+
+.myheader-1 .container .block-2 .topMenu .col-1 span {
+	color: yellow;
+}
+
+/*Конец Заголовка-1*/
+
+/*Заголовок-2---*/
+
+.myheader-2 {
+	background: #38464f url(../images/logo-1.png) no-repeat;
+}
+
+.myheader-2 .container {
+	height: 111px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.myheader-2 .container .logo {
+	height: 58px;
+	width: 168px;
+	background: url(../images/logo-2.png) no-repeat;
+	position: relative;
+	left: 20px;
+	top: 18px;
+	display: block;
+}
+
+.myheader-2 .container .logo a {
+	height: 58px;
+	width: 168px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Заголовок-3---*/
+
+.myheader-3 {
+	background-color: #38464f;
+	border-top: 1px solid #4b5860;
+}
+
+.myheader-3 .container {
+	height: 48px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
