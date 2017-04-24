@@ -48,14 +48,14 @@ body {
 
 .myheader-1 .container .block-2 .topMenu .col-2 {
 	width: 108px;
-	border-left: 1px solid #e5edf4;
+	background: url(../images/line-2.png) no-repeat left center;
 	padding-left: 15px;
 }
 
 .myheader-1 .container .block-2 .topMenu .col-3 {
 	width: 40px;
 	padding-left: 17px;
-	border-left: 1px solid #e5edf4;
+	background: url(../images/line-2.png) no-repeat left center;
 }
 
 .myheader-1 .container .block-1 {
@@ -87,16 +87,26 @@ body {
 	height: 111px;
 	width: 1200px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .myheader-2 .container .logo {
 	height: 58px;
 	width: 168px;
 	background: url(../images/logo-2.png) no-repeat;
-	position: relative;
-	left: 20px;
-	top: 18px;
-	display: block;
+	margin-left: 20px; 
+	margin-top: 18px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.myheader-2 .container .serch {
+	width: 648px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-top: 28px;
 }
 
 .myheader-2 .container .logo a {
@@ -105,22 +115,141 @@ body {
 	display: block;
 }
 
+.myheader-2 .container .serch .selection {
+	width: 160px;
+	height: 45px;
+	float: left;
+}
 
+.myheader-2 .container .serch .line {
+	width: 30px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #ffffff;
+}
 
+.myheader-2 .container .serch .selection .mySelect {
+	width: 160px;
+	height: 45px;
+	text-indent: 7px;
+	border: none;
+}
 
+.myheader-2 .container .serch .rowSerch {
+	width: 420px;
+	height: 43px;
+	float: left;
+}
 
+.myheader-2 .container .serch .rowSerch #mySerch {
+	width: 420px;
+	height: 43px;
+	background: #ffffff url(../images/line.png) no-repeat left 18px center;
+	border: none;
+	text-indent: 46px;
+}
 
+.myheader-2 .container .serch .serchButton {
+	width: 48px;
+	height: 43px;
+	float: left;
+}
 
+.myheader-2 .container .serch .serchButton #button {
+	width: 48px;
+	height: 45px;
+	background: #2ca5fa url(../images/logoSerch.png) no-repeat;
+	border: none;
+	cursor: pointer;
+}
 
+.myheader-2 .container .userIcon {
+	width: 245px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-top: 30px;
+}
 
+.myheader-2 .container .userIcon .icon .text span {
+	font-family: Calibri;
+	font-size: 12px;
+	color: #e5edf4;
+}
 
+.myheader-2 .container .userIcon .icon-1 {
+	width: 77px;
+	height: 45px;
+	background: url(../images/line.png) no-repeat right 13px;
+	display: inline-block;
+	vertical-align: top;
+}
 
+.myheader-2 .container .userIcon .icon-1 .img-1 {
+	height: 17px;
+	width: 15px;
+	background: url(../images/icon-1.png) no-repeat;
+	margin-left: 22px;
+}
 
+.myheader-2 .container .userIcon .icon-1 .text-1 {
+	width: 80px;
+	margin-top: 4px;
+}
 
+.myheader-2 .container .userIcon .icon-2 {
+	width: 80px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	background: url(../images/line.png) no-repeat right 13px;
+	margin-left: 7px;
+}
 
+.myheader-2 .container .userIcon .icon-2 .img-2 {
+	height: 15px;
+	width: 11px;
+	background: url(../images/icon-2.png) no-repeat;
+	margin-left: 17px;
+}
 
+.myheader-2 .container .userIcon .icon-2 .text-2 {
+	width: 91px;
+	margin-top: 6px;
+}
 
+.myheader-2 .container .userIcon .icon-3 {
+	width: 61px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 12px;
+}
 
+.myheader-2 .container .userIcon .icon-3 .img-3 {
+	height: 15px;
+	width: 12px;
+	background: url(../images/icon-3.png) no-repeat;
+	margin-left: 7px;
+}
+
+.myheader-2 .container .userIcon .icon-3 .text-3 {
+	width: 61px;
+	margin-top: 6px;
+}
+
+.myheader-2 .container .basket {
+	height: 38px;
+	width: 61px;
+	background: url(../images/logo-3.png) no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+/*Конец заголовка-2*/
 
 
 /*Заголовок-3---*/
@@ -136,3 +265,142 @@ body {
 	margin: 0 auto;
 }
 
+.myheader-3 .container .shop {
+	height: 34px;
+	width: 201px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+.myheader-3 .container .shop .img {
+	height: 34px;
+	width: 201px;
+	background: url(../images/logo-4.png) no-repeat;
+}
+
+.myheader-3 .container .navi {
+	width: 641px;
+	height: 48px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.myheader-3 .container .navi ul {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+.myheader-3 .container .navi ul li {
+	display: inline-block;
+	vertical-align: top;
+	width: 122px;
+	height: 48px;
+	margin-left: 35px;
+}
+
+.myheader-3 .container .navi ul li:hover {
+	background: url(../images/buttomLine.png) no-repeat center bottom;
+
+} 
+
+.myheader-3 .container .navi ul li a span {
+	font-family: Calibri;
+	font-size: 13pt; 
+	color: #e6e8e9;
+}
+
+.myheader-3 .container .navi ul li a {
+	text-decoration: none;
+	display: block;
+	width: 122px;
+	height: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*Конец заголовка-3*/
+
+/*Заголовок-4---*/
+
+.myheader-4 {
+	background: #ffffff;
+}
+
+.myheader-4 .container {
+	height: 55px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.myheader-4 .container .banner {
+	width: 900px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+.myheader-4 .container .banner span {
+	display: block;
+}
+
+.myheader-4 .container .banner .col {
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+.myheader-4 .container .banner .col-1 {
+	width: 200px;
+}
+
+.myheader-4 .container .banner .col .img {
+	float: left;
+	margin-right: 26px;
+}
+
+.myheader-4 .container .banner .col-1 .img-1 {
+	width: 24px;
+	height: 26px;
+	margin-right: 26px;
+	background: url(../images/logo-5.png) no-repeat;
+}
+
+.myheader-4 .container .banner .col-2 {
+	width: 232px;
+	margin-left: 130px;
+}
+
+.myheader-4 .container .banner .col-2 .img-2 {
+	width: 26px;
+	height: 27px;
+	background: url(../images/logo-6.png) no-repeat;
+}
+
+.myheader-4 .container .banner .col-3 {
+	width: 200px;
+	margin-left: 130px;
+}
+
+.myheader-4 .container .banner .col-3 .img-3 {
+	width: 30px;
+	height: 31px;
+	background: url(../images/logo-7.png) no-repeat; 
+}
+
+.myheader-4 .container .banner .col .text .paragraph-1 {
+	font-family: Lato;
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.myheader-4 .container .banner .col .text {
+	font-family: Lato;
+	font-size: 13pt;
+}
+
+/*Конец заголовка-4*/
