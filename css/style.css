@@ -1004,34 +1004,35 @@ body {
 }
 
 .footer-2 .container .news .serch {
-	width: 325px;
-	height: 63px;
+	width: 278px;
+	height: 38px;
+	margin-top: 17px;
+	border: 1px solid #cfcfcf;
 }
 
 .footer-2 .container .news .serch .rowNews {
-	margin-top: 17px;
 	float: left;
 }
 
 .footer-2 .container .news .serch .rowNews #myNews{
-	width: 230px;
-	height: 33px;
+	width: 236px;
+	height: 36px;
 	background-color: #38464f;
 	border-right: none;
 	border-color: #cfcfcf;
 	text-indent: 12px;
+	border: none;
 }
 
 .footer-2 .container .news .serch .emailButton {
-	width: 46px;
-	height: 40px;
+	width: 42px;
+	height: 38px;
 	float: left;
-	margin-top: 17px;
 }
 
 .footer-2 .container .news .serch .emailButton #button{
 	background: url(../images/emailButton.png) no-repeat;
-	width: 46px;
+	width: 42px;
 	height: 40px;
 	border: none;
 	cursor: pointer;
@@ -1041,7 +1042,7 @@ body {
 .footer-2 .container .news .followUs {
 	width: 230px;
 	height: 80px;
-	margin-top: 30px;
+	margin-top: 38px;
 }
 
 .footer-2 .container .news .followUs .name span {
