@@ -70,9 +70,14 @@ body {
 	vertical-align: top;
 }
 
+.myheader-1 .container .block-2 .topMenu a {
+	text-decoration: none;
+}
+
 .myheader-1 .container .block-2 .topMenu span {
 	font-family: Calibri;
-	font-size: 14pt;
+	font-size: 9pt;
+	font-weight: bold;
 	color: #e5edf4;
 }
 
@@ -110,7 +115,7 @@ body {
 	height: 45px;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 30px;
+	margin-left: 22px;
 	margin-top: 28px;
 }
 
@@ -170,7 +175,7 @@ body {
 }
 
 .myheader-2 .container .userIcon {
-	width: 245px;
+	width: 256px;
 	height: 45px;
 	display: inline-block;
 	vertical-align: top;
@@ -178,14 +183,19 @@ body {
 	margin-top: 30px;
 }
 
-.myheader-2 .container .userIcon .icon .text span {
+.myheader-2 .container .userIcon .icon .text a span {
 	font-family: Calibri;
-	font-size: 12px;
+	font-size: 9px;
+	font-weight: bold;
 	color: #e5edf4;
 }
 
+.myheader-2 .container .userIcon .icon .text a {
+	text-decoration: none;
+}
+
 .myheader-2 .container .userIcon .icon-1 {
-	width: 77px;
+	width: 79px;
 	height: 45px;
 	background: url(../images/line.png) no-repeat right 13px;
 	display: inline-block;
@@ -205,7 +215,7 @@ body {
 }
 
 .myheader-2 .container .userIcon .icon-2 {
-	width: 80px;
+	width: 86px;
 	height: 45px;
 	display: inline-block;
 	vertical-align: top;
@@ -303,9 +313,9 @@ body {
 .myheader-3 .container .navi ul li {
 	display: inline-block;
 	vertical-align: top;
-	width: 122px;
+	width: 139px;
 	height: 48px;
-	margin-left: 35px;
+	margin-left: 17px;
 }
 
 .myheader-3 .container .navi ul li:hover {
@@ -315,8 +325,9 @@ body {
 
 .myheader-3 .container .navi ul li a span {
 	font-family: Calibri;
-	font-size: 13pt; 
-	color: #e6e8e9;
+	font-size: 10pt; 
+	color: #e0e0e0;
+	font-weight: 600;
 }
 
 .myheader-3 .container .navi ul li a {
@@ -355,11 +366,12 @@ body {
 	height: 55px;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 10px;
+	margin-top: 17px;
 }
 
 .myheader-4 .container .banner .col-1 {
-	width: 200px;
+	width: 180px;
+	margin-left: 37px;
 }
 
 .myheader-4 .container .banner .col .img {
@@ -375,8 +387,8 @@ body {
 }
 
 .myheader-4 .container .banner .col-2 {
-	width: 232px;
-	margin-left: 130px;
+	width: 200px;
+	margin-left: 145px;
 }
 
 .myheader-4 .container .banner .col-2 .img-2 {
@@ -386,8 +398,8 @@ body {
 }
 
 .myheader-4 .container .banner .col-3 {
-	width: 200px;
-	margin-left: 130px;
+	width: 180px;
+	margin-left: 127px;
 }
 
 .myheader-4 .container .banner .col-3 .img-3 {
@@ -398,13 +410,13 @@ body {
 
 .myheader-4 .container .banner .col .text .paragraph-1 {
 	font-family: Lato;
-	font-size: 15pt;
+	font-size: 11pt;
 	font-weight: bold;
 }
 
 .myheader-4 .container .banner .col .text span{
 	font-family: Lato;
-	font-size: 13pt;
+	font-size: 10pt;
 	color: #4b4b4b;
 }
 
@@ -444,24 +456,25 @@ body {
 
 .content .container .deal .text-1 {
 	text-align: center;
-	height: 44px;
+	height: 30px;
 	margin-top: 15px;
 }
 
 .content .container .deal .text-2 {
 	text-align: center;
+	height: 22px;
 }
 
 .content .container .deal .text-1 span {
 	font-family: Calibri;
-	font-size: 30pt;
+	font-size: 22pt;
 	color: #379aff;
 	font-weight: bold;
 }
 
 .content .container .deal .text-2 span {
 	font-family: Calibri;
-	font-size: 12pt;
+	font-size: 8pt;
 	color: #000000;
 	font-weight: bold;
 }
@@ -484,11 +497,12 @@ body {
 .content .container .deal .product {
 	text-align: center;
 	width: 369px;
+	height: 20px;
 }
 
 .content .container .deal .product span {
 	font-family: Calibri;
-	font-size: 13pt;
+	font-size: 9pt;
 	font-weight: bold;
 	color: #373737;
 }
@@ -504,16 +518,17 @@ body {
 	margin-left: 107px;
 	display: inline-block;
 	vertical-align: top;
+	margin-top: 12px;
 }
 
 .content .container .deal .price-1 span {
 	font-family: Calibri;
-	font-family: 14pt;
+	font-size: 9pt;
 }
 
 .content .container .deal .price-2 span {
 	font-family: Calibri;
-	font-size: 28pt;
+	font-size: 21pt;
 	color: #2ca5fa;
 }
 
@@ -534,7 +549,7 @@ body {
 
 .content .container .quickLink .theme span {
 	font-family: Calibri;
-	font-size: 14pt;
+	font-size: 9pt;
 	font-weight: bold;
 }
 
@@ -547,7 +562,7 @@ body {
 .content .container .quickLink .menu {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 21px; 
+	margin-top: 18px; 
 }
 
 .content .container .quickLink .menu ul .item {
@@ -564,7 +579,7 @@ body {
 
 .content .container .quickLink .menu ul .item a span {
 	font-family: Calibri;
-	font-size: 12pt;
+	font-size: 9pt;
 	color: #000000;
 }
 
@@ -647,9 +662,9 @@ body {
 
 .content .container .productArea .banner .universalBanner span {
 	font-family: Calibri;
-	font-size: 24pt;
+	font-size: 17pt;
 	font-weight: bold;
-	line-height: 30px;
+	line-height: 28px;
 }
 
 .content .container .productArea .banner-1 .nameBanner span {
@@ -677,7 +692,7 @@ body {
 
 .content .container .productArea .banner .product ul li a span{
 	font-family: Calibri;
-	font-size: 15pt;
+	font-size: 11pt;
 }
 
 .content .container .productArea .banner-1 .nameProduct ul li a span {
@@ -741,7 +756,7 @@ body {
 
 .content .container .caption span {
 	font-family: Calibri;
-	font-size: 35pt;
+	font-size: 21pt;
 	color: #32302f;
 }
 
@@ -796,7 +811,7 @@ body {
 
 .content .container .product .text span {
 	font-family: Calibri;
-	font-size: 13pt;
+	font-size: 10pt;
 	font-weight: bold;
 	color: #373737;
 }
@@ -810,12 +825,12 @@ body {
 
 .content .container .product .discount span {
 	font-family: Calibri;
-	font-size: 13pt;
+	font-size: 10pt;
 }
 
 .content .container .product .price span {
 	font-family: Calibri;
-	font-size: 30pt;
+	font-size: 21pt;
 	color: #2ca5fa;
 }
 
@@ -910,7 +925,7 @@ body {
 }
 
 .footer-1 .supportCallout .col .text .paragraph-1 {
-	font-size: 15pt;
+	font-size: 14pt;
 	font-weight: bold;
 }
 
@@ -968,7 +983,7 @@ body {
 
 .footer-2 .container .nameMenu span {
 	font-family: Calibri;
-	font-size: 16pt;
+	font-size: 14pt;
 	color: #f2f3f3;
 }
 
@@ -986,12 +1001,12 @@ body {
 
 .footer-2 .container .bottomMenu .col ul li a span, .news .text span {
 	font-family: Calibri;
-	font-size: 11pt;
+	font-size: 8pt;
 	color: #f2f3f3;
 }
 
 .footer-2 .container .news {
-	width: 325px;
+	width: 320px;
 	height: 250px;
 	display: inline-block;
 	vertical-align: top;
@@ -1004,7 +1019,7 @@ body {
 }
 
 .footer-2 .container .news .serch {
-	width: 278px;
+	width: 280px;
 	height: 38px;
 	margin-top: 17px;
 	border: 1px solid #cfcfcf;
@@ -1047,7 +1062,7 @@ body {
 
 .footer-2 .container .news .followUs .name span {
 	font-family: Calibri;
-	font-size: 16pt;
+	font-size: 15pt;
 	color: #f2f3f3;
 }
 
@@ -1104,7 +1119,7 @@ body {
 
 .footer-3 .container .textFooter span {
 	font-family: MyriadPro;
-	font-size: 12pt;
+	font-size: 10pt;
 	color: #f1f2f2;
 }
 
