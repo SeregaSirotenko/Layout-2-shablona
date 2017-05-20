@@ -435,7 +435,7 @@ body {
 }
 
 .content .container .mainBanner {
-	height: 365px;
+	height: 370px;
 	width: 770px;
 	background-color: #ffffff;
 	margin-top: 25px;
@@ -480,9 +480,8 @@ body {
 }
 
 .content .container .deal .clock {
-	width: 113px;
+	width: 137px;
 	height: 29px;
-	background: url(../images/clock.png) no-repeat;
 	margin: 0 auto;
 }
 
@@ -1037,6 +1036,9 @@ body {
 	border-color: #cfcfcf;
 	text-indent: 12px;
 	border: none;
+	color: #f1f2f2;
+	font-family: MyriadPro;
+	font-size: 10pt;  
 }
 
 .footer-2 .container .news .serch .emailButton {
@@ -1134,7 +1136,49 @@ body {
 }
 
 
-
-
-
 /*Конец Footer---*/
+
+/*Слайдер*/
+
+#my_slider {
+    width:770px;
+    height:370px;
+    overflow: hidden;
+    position:relative;
+    list-style: none outside none;
+    padding: 0;
+    margin: 0 auto;
+}
+#my_slider li {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display:none;
+}
+#my_slider li:first-child {
+    display:block;
+}
+#counter {
+    text-align:center;
+    font-size:16px;
+    width:500px;
+    margin: 0 auto;
+}
+
+/*Таймер обратного отсчета*/
+
+.content .container .deal .clock .timer { 
+	font-size: 17pt;
+	font-family: Lato; 
+	font-weight: 600;
+	text-align: center;
+}
+
+.content .container .deal .clock .timer .myTimer { 
+	background-color: #f0513a; 
+	color: white;
+}
+
+.content .container .deal .clock .timer #delimiter {
+	color: #f0513a;
+}
