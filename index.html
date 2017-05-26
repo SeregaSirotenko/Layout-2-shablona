@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/myjs.js"></script>
+	<script src="js/slick.js"></script>
 </head>
 <body>
 	<header>
@@ -32,6 +35,7 @@
 			</div>
 		</div>
 		<div class="myheader-2">
+		<div class="cell">
 			<div class="container">
 				<div class="logo"><a href="#"></a></div>
 				<div class="serch">
@@ -67,6 +71,8 @@
 					</div>
 			</div>
 			<div class="basket"></div>
+		</div>
+		</div>
 		</div>
 		<div class="myheader-3">
 			<div class="container">
@@ -175,7 +181,11 @@
 					</div>
 				</div>
 				<div class="productArea">
-				<div class="slider-1"></div>
+				<div class="slider">
+					<div class="buttonLeftB buttonB" id="buttonLeftB"></div>
+					<div class="buttonRightB buttonB" id="buttonRightB"></div>
+				</div>
+				<div class="myBanner">
 					<div class="banner-1 banner">
 						<div class="nameBanner universalBanner">
 							<span>20% off on Mobiles & more.*</span>
@@ -221,11 +231,62 @@
 							</ul>
 						</div>
 					</div>
+					<div class="banner-1 banner">
+						<div class="nameBanner universalBanner">
+							<span>20% off on Mobiles & more.*</span>
+						</div>
+						<div class="nameProduct product">
+							<ul>
+								<li><a href="#"><span>Apple Mobile</span></a></li>
+								<li><a href="#"><span>Samsung Mobile</span></a></li>
+								<li><a href="#"><span>Micromax Mobile</span></a></li>
+								<li><a href="#"><span>Nikia Mobile</span></a></li>
+								<li><a href="#"><span>HTC Mobile</span></a></li>
+								<li><a href="#"><span>Sony Mobile</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="banner-2 banner">
+						<div class="nameBanner universalBanner">
+							<span>50% off on Fashion wear & more.*</span>
+						</div>
+						<div class="nameProduct product">
+							<ul>
+								<li><a href="#"><span>Bags and Wallets</span></a></li>
+								<li><a href="#"><span>Belts</span></a></li>
+								<li><a href="#"><span>Bootees</span></a></li>
+								<li><a href="#"><span>Cold Weather</span></a></li>
+								<li><a href="#"><span>Jewelry</span></a></li>
+								<li><a href="#"><span>Ties and Hats</span></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="banner-3 banner">
+						<div class="nameBanner universalBanner">
+							<span>20% off activewear & more.*</span>
+						</div>
+						<div class="nameProduct product">
+							<ul>
+								<li><a href="#"><span>Bras</span></a></li>
+								<li><a href="#"><span>Hair Accessories</span></a></li>
+								<li><a href="#"><span>Hats and Gloves</span></a></li>
+								<li><a href="#"><span>Lifestyle</span></a></li>
+								<li><a href="#"><span>Scarves</span></a></li>
+								<li><a href="#"><span>Small Leathers</span></a></li>
+							</ul>
+						</div>
+					</div>
+					</div>
 				</div>
 				<div class="caption">
 					<span>Leatest products</span>
 				</div>
 				<div class="leatestProducts">
+				<div class="slider" id="buttonSlider-1">
+					<div class="button-1 button"></div>
+					<div class="button-2 button"></div>
+				</div>
+				<div class="myProducts" id="myProducts-1">
 					<div class="product-1 product">
 						<div class="img-1 img"></div>
 						<div class="text">
@@ -291,11 +352,82 @@
 							<span>Rs 350</span>
 						</div>
 					</div>
+					<div class="product-1 product">
+						<div class="img-1 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-2 product">
+						<div class="img-2 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-3 product">
+						<div class="img-3 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-4 product">
+						<div class="img-4 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-5 product">
+						<div class="img-5 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+				</div>
 				</div>
 				<div class="caption">
 					<span>Clearance Sale</span>
 				</div>
 				<div class="leatestProducts">
+				<div class="slider" id="buttonSlider-2">
+					<div class="button-1 button"></div>
+					<div class="button-2 button"></div>
+				</div>
+				<div class="myProducts" id="myProducts-2">
 					<div class="product-1 product">
 						<div class="img-1 img"></div>
 						<div class="text">
@@ -361,11 +493,82 @@
 							<span>Rs 350</span>
 						</div>
 					</div>
-				</div>
+					<div class="product-1 product">
+						<div class="img-1 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-2 product">
+						<div class="img-2 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-3 product">
+						<div class="img-3 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-4 product">
+						<div class="img-4 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-5 product">
+						<div class="img-5 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					</div>
+					</div>
 				<div class="caption">
 					<span>Your Recently Viewed items</span>
 				</div>
 				<div class="leatestProducts">
+				<div class="slider" id="buttonSlider-3">
+					<div class="button-1 button"></div>
+					<div class="button-2 button"></div>
+				</div>
+				<div class="myProducts" id="myProducts-3">
 					<div class="product-1 product">
 						<div class="img-1 img"></div>
 						<div class="text">
@@ -431,6 +634,72 @@
 							<span>Rs 350</span>
 						</div>
 					</div>
+					<div class="product-1 product">
+						<div class="img-1 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-2 product">
+						<div class="img-2 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-3 product">
+						<div class="img-3 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-4 product">
+						<div class="img-4 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+					<div class="product-5 product">
+						<div class="img-5 img"></div>
+						<div class="text">
+							<span>Samsung 16GB MicroSD Class 6</span>
+						</div>
+						<div class="logo"></div>
+						<div class="discount">
+							<span> ̶R̶s̶4̶9̶9̶ [30%OFF]</span>
+						</div>
+						<div class="price">
+							<span>Rs 350</span>
+						</div>
+					</div>
+				</div>
 				</div>
 			</div>
 		</div>

@@ -90,17 +90,23 @@ body {
 /*Заголовок-2---*/
 
 .myheader-2 {
-	background: #38464f url(../images/logo-1.png) no-repeat;
+	background: #38464f
 }
 
-.myheader-2 .container {
+.myheader-2 .cell {
+	background: url(../images/logo-1.png) no-repeat;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.myheader-2 .cell .container {
 	height: 111px;
 	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
 }
 
-.myheader-2 .container .logo {
+.myheader-2 .cell .container .logo {
 	height: 58px;
 	width: 168px;
 	background: url(../images/logo-2.png) no-repeat;
@@ -110,7 +116,7 @@ body {
 	vertical-align: top;
 }
 
-.myheader-2 .container .serch {
+.myheader-2 .cell .container .serch {
 	width: 648px;
 	height: 45px;
 	display: inline-block;
@@ -119,19 +125,19 @@ body {
 	margin-top: 28px;
 }
 
-.myheader-2 .container .logo a {
+.myheader-2 .cell .container .logo a {
 	height: 58px;
 	width: 168px;
 	display: block;
 }
 
-.myheader-2 .container .serch .selection {
+.myheader-2 .cell .container .serch .selection {
 	width: 160px;
 	height: 45px;
 	float: left;
 }
 
-.myheader-2 .container .serch .line {
+.myheader-2 .cell .container .serch .line {
 	width: 30px;
 	height: 45px;
 	display: inline-block;
@@ -139,20 +145,20 @@ body {
 	background-color: #ffffff;
 }
 
-.myheader-2 .container .serch .selection .mySelect {
+.myheader-2 .cell .container .serch .selection .mySelect {
 	width: 160px;
 	height: 45px;
 	text-indent: 7px;
 	border: none;
 }
 
-.myheader-2 .container .serch .rowSerch {
+.myheader-2 .cell .container .serch .rowSerch {
 	width: 420px;
 	height: 43px;
 	float: left;
 }
 
-.myheader-2 .container .serch .rowSerch #mySerch {
+.myheader-2 .cell .container .serch .rowSerch #mySerch {
 	width: 420px;
 	height: 43px;
 	background: #ffffff url(../images/line.png) no-repeat left 18px center;
@@ -160,13 +166,13 @@ body {
 	text-indent: 46px;
 }
 
-.myheader-2 .container .serch .serchButton {
+.myheader-2 .cell .container .serch .serchButton {
 	width: 48px;
 	height: 43px;
 	float: left;
 }
 
-.myheader-2 .container .serch .serchButton #button {
+.myheader-2 .cell .container .serch .serchButton #button {
 	width: 48px;
 	height: 45px;
 	background: #2ca5fa url(../images/logoSerch.png) no-repeat;
@@ -174,7 +180,7 @@ body {
 	cursor: pointer;
 }
 
-.myheader-2 .container .userIcon {
+.myheader-2 .cell .container .userIcon {
 	width: 256px;
 	height: 45px;
 	display: inline-block;
@@ -183,18 +189,18 @@ body {
 	margin-top: 30px;
 }
 
-.myheader-2 .container .userIcon .icon .text a span {
+.myheader-2 .cell .container .userIcon .icon .text a span {
 	font-family: Calibri;
 	font-size: 9px;
 	font-weight: bold;
 	color: #e5edf4;
 }
 
-.myheader-2 .container .userIcon .icon .text a {
+.myheader-2 .cell .container .userIcon .icon .text a {
 	text-decoration: none;
 }
 
-.myheader-2 .container .userIcon .icon-1 {
+.myheader-2 .cell .container .userIcon .icon-1 {
 	width: 79px;
 	height: 45px;
 	background: url(../images/line.png) no-repeat right 13px;
@@ -202,19 +208,19 @@ body {
 	vertical-align: top;
 }
 
-.myheader-2 .container .userIcon .icon-1 .img-1 {
+.myheader-2 .cell .container .userIcon .icon-1 .img-1 {
 	height: 17px;
 	width: 15px;
 	background: url(../images/icon-1.png) no-repeat;
 	margin-left: 22px;
 }
 
-.myheader-2 .container .userIcon .icon-1 .text-1 {
+.myheader-2 .cell .container .userIcon .icon-1 .text-1 {
 	width: 80px;
 	margin-top: 4px;
 }
 
-.myheader-2 .container .userIcon .icon-2 {
+.myheader-2 .cell .container .userIcon .icon-2 {
 	width: 86px;
 	height: 45px;
 	display: inline-block;
@@ -223,19 +229,19 @@ body {
 	margin-left: 7px;
 }
 
-.myheader-2 .container .userIcon .icon-2 .img-2 {
+.myheader-2 .cell .container .userIcon .icon-2 .img-2 {
 	height: 15px;
 	width: 11px;
 	background: url(../images/icon-2.png) no-repeat;
 	margin-left: 17px;
 }
 
-.myheader-2 .container .userIcon .icon-2 .text-2 {
+.myheader-2 .cell .container .userIcon .icon-2 .text-2 {
 	width: 91px;
 	margin-top: 6px;
 }
 
-.myheader-2 .container .userIcon .icon-3 {
+.myheader-2 .cell .container .userIcon .icon-3 {
 	width: 61px;
 	height: 45px;
 	display: inline-block;
@@ -243,19 +249,19 @@ body {
 	margin-left: 12px;
 }
 
-.myheader-2 .container .userIcon .icon-3 .img-3 {
+.myheader-2 .cell .container .userIcon .icon-3 .img-3 {
 	height: 15px;
 	width: 12px;
 	background: url(../images/icon-3.png) no-repeat;
 	margin-left: 7px;
 }
 
-.myheader-2 .container .userIcon .icon-3 .text-3 {
+.myheader-2 .cell .container .userIcon .icon-3 .text-3 {
 	width: 61px;
 	margin-top: 6px;
 }
 
-.myheader-2 .container .basket {
+.myheader-2 .cell .container .basket {
 	height: 38px;
 	width: 61px;
 	background: url(../images/logo-3.png) no-repeat;
@@ -426,12 +432,12 @@ body {
 
 .content {
 	background-color: #e0e0e0;
+	overflow: hidden;
 }
 
 .content .container {
 	width: 1200px;
 	margin: 0 auto;
-	overflow: hidden;
 }
 
 .content .container .mainBanner {
@@ -627,20 +633,36 @@ body {
 	width: 57px;
 }
 
-.content .container .productArea .slider-1 {
-	background: url(../images/buttonLeftB.png) no-repeat;
+.content .container .productArea .slider .buttonB {
 	width: 36px;
 	height: 72px;
 	position: absolute;
-	left: 3px;
-	top: 4px;
+	top: 135px;
+	cursor: pointer;
+}
+
+.content .container .productArea .slider .buttonLeftB {
+	background: url(../images/buttonLeftB.png) no-repeat;
+	left: -21px;
+}
+
+.content .container .productArea .slider .buttonRightB {
+	background: url(../images/buttonRightB.png) no-repeat;
+	right: -26px;
 }
 
 .content .container .productArea {
 	position: relative;
 }
 
-.content .container .productArea .banner {
+.content .container .productArea .myBanner {
+	overflow: hidden;
+	width: 1200px;
+	height: 337px;
+	margin: 0 auto;
+}
+
+.content .container .productArea .myBanner .banner {
 	display: inline-block;
 	vertical-align: top;
 	width: 370px;
@@ -648,103 +670,107 @@ body {
 	margin-top: 20px;
 }
 
-.content .container .productArea .banner-1 {
+.content .container .productArea .myBanner .banner{
+	overflow: hidden;
+}
+
+.content .container .productArea .myBanner .banner-1 {
 	margin-left: 15px; 
 	background: #ffffff url(../images/phone-2.png) no-repeat 229px  58px; 
 }
 
-.content .container .productArea .banner-1 .nameBanner {
+.content .container .productArea .myBanner .banner-1 .nameBanner {
 	margin-left: 30px;
 	margin-top: 25px;
 	width: 280px;
 }
 
-.content .container .productArea .banner .universalBanner span {
+.content .container .productArea .myBanner .banner .universalBanner span {
 	font-family: Calibri;
 	font-size: 17pt;
 	font-weight: bold;
 	line-height: 28px;
 }
 
-.content .container .productArea .banner-1 .nameBanner span {
+.content .container .productArea .myBanner .banner-1 .nameBanner span {
 	color: #379aff;
 }
 
-.content .container .productArea .banner-1 .nameProduct {
+.content .container .productArea .myBanner .banner-1 .nameProduct {
 	float: left;
 }
 
-.content .container .productArea .banner .product ul li {
+.content .container .productArea .myBanner .banner .product ul li {
 	list-style: none;
 	padding-left: 24px;
 	line-height: 27px;
 }
 
-.content .container .productArea .banner-1 .nameProduct ul li {
+.content .container .productArea .myBanner .banner-1 .nameProduct ul li {
 	background: url(../images/marker.png) no-repeat 0 8px;
 }
 
-.content .container .productArea .banner .product ul li a {
+.content .container .productArea .myBanner .banner .product ul li a {
 	text-decoration: none;
 	display: block;
 }
 
-.content .container .productArea .banner .product ul li a span{
+.content .container .productArea .myBanner .banner .product ul li a span{
 	font-family: Calibri;
 	font-size: 11pt;
 }
 
-.content .container .productArea .banner-1 .nameProduct ul li a span {
+.content .container .productArea .myBanner .banner-1 .nameProduct ul li a span {
 	color: #555555;
 }
 
-.content .container .productArea .banner-2 {
+.content .container .productArea .myBanner .banner-2 {
 	background: url(../images/Banner-2.png) no-repeat;
 	margin-left: 30px;  
 }
 
-.content .container .productArea .banner-2 .nameBanner span {
+.content .container .productArea .myBanner .banner-2 .nameBanner span {
 	color: #38464f;
 }
 
-.content .container .productArea .banner-2 .nameBanner {
+.content .container .productArea .myBanner .banner-2 .nameBanner {
 	margin-left: 25px;
 	margin-top: 25px;
 	width: 264px;
 }
 
-.content .container .productArea .banner-2 .nameProduct ul li {
+.content .container .productArea .myBanner .banner-2 .nameProduct ul li {
 	background: url(../images/marker.png) no-repeat 0 8px;
 }
 
-.content .container .productArea .banner-2 .nameProduct ul li a span {
+.content .container .productArea .myBanner .banner-2 .nameProduct ul li a span {
 	color: #555555;
 }
 
-.content .container .productArea .banner-3 {
+.content .container .productArea .myBanner .banner-3 {
 	background: url(../images/Banner-3.png) no-repeat;
 	margin-left: 25px;  
 }
 
-.content .container .productArea .banner-3 .nameBanner {
+.content .container .productArea .myBanner .banner-3 .nameBanner {
 	margin-left: 27px;
 	margin-top: 14px;
 	width: 271px;
 }
 
-.content .container .productArea .banner-3 .nameBanner span {
+.content .container .productArea .myBanner .banner-3 .nameBanner span {
 	color: #ffffff;
 }
 
-.content .container .productArea .banner-3 .nameProduct ul li {
+.content .container .productArea .myBanner .banner-3 .nameProduct ul li {
 	background: url(../images/marker-2.png) no-repeat 0 8px;
 }
 
-.content .container .productArea .banner-3 .nameProduct ul li a span {
+.content .container .productArea .myBanner .banner-3 .nameProduct ul li a span {
 	color: #ffffff;
 }
 
-.content .container .productArea .banner-3 .nameProduct {
+.content .container .productArea .myBanner .banner-3 .nameProduct {
 	margin-top: 23px;
 }
 
@@ -768,90 +794,113 @@ body {
 	border-top: 4px solid #2ca5fa;
 	text-align: center;
 	margin-bottom: 45px;
+	position: relative;
 }
 
-.content .container .product {
+.content .container .leatestProducts .myProducts {
+	overflow: hidden;
+}
+
+.content .container .leatestProducts .slider .button {
+	width: 34px;
+	height: 68px;
+	position: absolute;
+	top: 115px;
+	cursor: pointer;
+}
+
+.content .container .leatestProducts .slider .button-1 {
+	background: url(../images/buttonLeft.png) no-repeat;
+	left: -35px;
+}
+
+.content .container .leatestProducts .slider .button-2 {
+	background: url(../images/buttonRight.png) no-repeat;
+	right: -33px;
+}
+
+.content .container .leatestProducts .myProducts .product {
 	width: 200px;
-	height: 320px;
+	height: 266px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 16px;
 }
 
-.content .container .product-1 {
+.content .container .leatestProducts .myProducts .product-1 {
 	margin-top: 16px;
 }
 
-.content .container .product-2 {
+.content .container .leatestProducts .myProducts .product-2 {
 	margin-top: 37px;
 }
 
-.content .container .product-3 {
+.content .container .leatestProducts .myProducts .product-3 {
 	margin-top: 31px;
 }
 
-.content .container .product-4 {
+.content .container .leatestProducts .myProducts .product-4 {
 	margin-top: 55px;
 }
 
-.content .container .product-5 {
+.content .container .leatestProducts .myProducts .product-5 {
 	margin-top: 32px;
 }
 
-.content .container .product .img {
+.content .container .leatestProducts .myProducts .product .img {
 	margin: 0 auto;
 }
 
-.content .container .product-1 .img-1 {
+.content .container .leatestProducts .myProducts .product-1 .img-1 {
 	background: url(../images/product-1.png) no-repeat;
 	width: 114px;
 	height: 153px;
 }
 
-.content .container .product .text span {
+.content .container .leatestProducts .myProducts .product .text span {
 	font-family: Calibri;
 	font-size: 10pt;
 	font-weight: bold;
 	color: #373737;
 }
 
-.content .container .product .logo {
+.content .container .leatestProducts .myProducts .product .logo {
 	background: url(../images/stars.png) no-repeat;
 	width: 70px;
 	height: 22px;
 	margin: 0 auto;
 }
-
-.content .container .product .discount span {
+ 
+.content .container .leatestProducts .myProducts .product .discount span {
 	font-family: Calibri;
 	font-size: 10pt;
 }
 
-.content .container .product .price span {
+.content .container .leatestProducts .myProducts .product .price span {
 	font-family: Calibri;
 	font-size: 21pt;
 	color: #2ca5fa;
 }
 
-.content .container .product-2 .img-2 {
+.content .container .leatestProducts .myProducts .product-2 .img-2 {
 	background: url(../images/product-2.png) no-repeat;
 	width: 111px;
 	height: 132px;
 }
 
-.content .container .product-3 .img-3 {
+.content .container .leatestProducts .myProducts .product-3 .img-3 {
 	background: url(../images/product-3.png) no-repeat;
 	width: 120px;
 	height: 139px;
 }
 
-.content .container .product-4 .img-4 {
+.content .container .leatestProducts .myProducts .product-4 .img-4 {
 	background: url(../images/product-4.png) no-repeat;
 	width: 101px;
 	height: 115px;
 }
 
-.content .container .product-5 .img-5 {
+.content .container .leatestProducts .myProducts .product-5 .img-5 {
 	background: url(../images/product-5.png) no-repeat;
 	width: 115px;
 	height: 138px;
@@ -1182,3 +1231,4 @@ body {
 .content .container .deal .clock .timer #delimiter {
 	color: #f0513a;
 }
+

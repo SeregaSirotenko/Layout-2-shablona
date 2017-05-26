@@ -85,10 +85,54 @@ updater(
  document.getElementById("hours"), document.getElementById("minutes"),
  document.getElementById("seconds")); 
 
+// Слайдер-1
 
 
+  $('.myBanner').slick({
+       infinite: true,
+       arrows: true,
+       prevArrow: $('#buttonLeftB'),
+	   nextArrow: $('#buttonRightB'),
+       slidesToShow: 3,
+       slidesToScroll: 1
 
- $('#myNews').onblur
+
+     });
+
+  // Слайдер-2
+
+   $('#myProducts-1').slick({
+       infinite: true,
+       arrows: true,
+       prevArrow: $('#buttonSlider-1 .button-1'),
+	   nextArrow: $('#buttonSlider-1 .button-2'),
+       slidesToShow: 5,
+       slidesToScroll: 1
+     });
+
+   //Слайдер-3
+
+   $('#myProducts-2').slick({
+       infinite: true,
+       arrows: true,
+       prevArrow: $('#buttonSlider-2 .button-1'),
+	   nextArrow: $('#buttonSlider-2 .button-2'),
+       slidesToShow: 5,
+       slidesToScroll: 1
+     });
+
+   //Слайдер-4
+
+   $('#myProducts-3').slick({
+       infinite: true,
+       arrows: true,
+       prevArrow: $('#buttonSlider-3 .button-1'),
+	   nextArrow: $('#buttonSlider-3 .button-2'),
+       slidesToShow: 5,
+       slidesToScroll: 1
+     });
+
+
 
 
 
